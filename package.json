@@ -1,0 +1,16 @@
+{
+  "name": "deno-cypress-runner",
+  "version": "1.0.0",
+  "description": "This project is made to run cypress in deno.",
+  "main": "index.js",
+  "scripts": {
+    "generate-tests": "node copyCypressTests.js",
+    "test": "cypress open",
+    "test-terminal": "cypress run"
+  },
+  "author": "Gabriel Matos Boubee",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^13.16.0"
+  }
+}
